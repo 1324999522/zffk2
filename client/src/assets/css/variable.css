@@ -1,0 +1,17 @@
+:root{
+    --main_color:#409EFF;
+    --iconNavTextColor:#646566;
+    --iconNavActiveColor:rgb(0, 0, 0);
+    --footTextColor:#646566;
+    --linearColor1:#f7f7f7;
+    --linearColor2:#f3f3f3;
+
+        
+    --base_black_color:#000000;
+    --base_white_color:#ffffff;
+    --first_white_color:#e0e0e0;
+    --first_font_color:#303133;
+    --second_font_color:#606266;
+    --third_font_color:#909399;
+    --fourth_font_color:#C0C4CC;
+  }

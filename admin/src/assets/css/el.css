@@ -1,0 +1,216 @@
+
+.form-item-bottom{
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--third_font_color);
+  line-height: 20px;
+}
+
+#app .el-button--primary {
+    color: #FFF;
+    background-color: var(--main_color);
+    border-color: var(--main_color);
+}
+
+#app .el-table td,
+/* .el-table th {
+  padding: 8px 0 !important;
+} */
+.el-table thead {
+  color: #262626 !important;
+  font-weight: 500;
+}
+#app .el-tag {
+    
+  font-size: 13px !important;
+}
+.pc .el-dialog__body {
+  padding: 20px 30px 10px 30px !important;
+  color: #606266;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+#app .el-select {
+     display: block !important; 
+
+}
+
+#app  .el-pager  .active {
+    background-color: var(--main_color);
+    border-radius: 10%;
+    color: white;
+  }
+
+#app .el-pagination {
+    white-space: nowrap;
+    padding: 2px 5px;
+    color: #303133;
+    font-weight: 400;
+  }
+#app .el-submenu__title i {
+    color: #f8f8f8; 
+  }
+  /* 活跃标签 */
+  #app .el-tabs__item.is-active {
+    color:  var(--main_color);
+   
+    
+}
+
+#app .el-tabs__active-bar {
+ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: var(--main_color);
+    transition: transform .3s cubic-bezier(.645,.045,.355,1);
+    list-style: none;
+
+}
+#app .el-tabs__item:hover {
+    color:  var(--main_color);   
+}
+
+
+
+#app .el-button--text {
+    color:var(--main_color);
+
+}
+#app .el-tabs__item {
+     padding: 0 20px ; 
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #303133;
+    position: relative;
+}
+
+.primary{
+    background-color: var(--auxiliary_color) !important;
+    border-color: var(--auxiliary_color) !important;
+    color:  var(--main_color) !important;
+}
+#app .el-radio-button__orig-radio:checked+.el-radio-button__inner {
+    color: #FFF;
+    background-color:  var(--main_color);
+    border-color:  var(--main_color);
+    box-shadow: -1px 0 0 0  var(--main_color);
+}
+
+
+
+#app .selected {
+    color: var(--main_color) !important;
+    font-weight: 700;
+}
+
+
+#work-nav .el-card__body{
+    padding: 0px !important;
+  }
+
+  #work .el-card {
+    margin: 5px;
+  }
+
+#app .el-dialog__title {
+  line-height: 24px;
+  font-size: 16px;
+  color: #303133;
+}
+
+
+/* 所有表格文字居中 */
+#app .cell {
+  text-align: center !important;
+}
+
+
+/* 设置所有边框圆角为2px */
+.el-input__inner {
+      border-radius: 2px !important;
+}
+/* .el-button {
+  border-radius: 3px !important;
+} */
+.el-tag {
+  border-radius: 3px !important;
+}
+
+
+/* 投影 */
+.el-card.is-always-shadow, .el-card.is-hover-shadow:focus, .el-card.is-hover-shadow:hover {
+  box-shadow: 0 0px 0px 0 rgb(0 0 0 / 10%) !important;
+}
+.el-card, .el-message {
+  border-radius: 2px !important;
+}
+
+
+
+
+.el-tabs__nav-wrap::after {
+  background-color: white !important;
+}
+
+.notice .el-badge__content.is-fixed {
+  top: 20px;
+}
+
+.herder_right_popover{
+  padding: 0px !important;
+}
+
+
+.v-show-content{
+  font-size: 14px !important;
+}
+
+
+.pc .user_info_box {
+  margin-right: 15px;
+}
+
+.phone .user_info_box{
+  margin-bottom: 10px;
+}
+.phone .el-drawer__body {
+  overflow: hidden !important;
+}
+.pc .wholesale{
+  margin-left: 90px;
+}
+
+/* 分割线 */
+.el-divider {
+  background-color: #eeeeee !important;
+  position: relative;
+}
+
+
+.pc #withdraw .el-card__body{
+  margin: 20px 40px !important;
+}
+.pc #card_add .el-card__body{
+  margin: 20px 40px !important;
+}
+.pc #good_update .el-card__body{
+  margin: 20px 40px !important;
+}
+.pc .login_box {
+
+  margin: 0px auto;
+  padding-top: 90px;
+  
+}
+.el-message {
+  min-width: 300px !important;
+}

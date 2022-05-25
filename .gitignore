@@ -1,0 +1,6 @@
+/admin/node_modules/
+/admin/dist/
+/client/dist/
+/api/node_modules/
+/api/config.js
+/client/node_modules/

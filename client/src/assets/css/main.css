@@ -1,0 +1,33 @@
+:not(html):not(body)::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    background: transparent;
+  }
+  :not(html):not(body)::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: hsla(0, 0%, 54.9%, 0.3);
+  }
+  :not(html):not(body)::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: hsla(0, 0%, 54.9%, 0.3);
+  }
+
+  /* input:hover{
+   
+      
+  } */
+  input:focus{
+    border-color: var(--main_color) !important;
+  }
+  textarea:focus{
+    border-color: var(--main_color) !important;
+  }
+
+  .out_box_base{
+    padding: 15px;
+    color: var(--first_font_color);
+    font-size: 12px;
+  }
+  
+
+  

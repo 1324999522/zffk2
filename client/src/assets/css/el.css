@@ -1,0 +1,54 @@
+.is-leaf{
+    color: rgb(54, 54, 54) !important;
+}
+
+#app .el-button--primary{
+    background-color: var(--main_color);
+    border-color: var(--main_color);
+}
+
+#app  .van-dialog__header{
+    font-size: 20px  !important;
+   
+}
+
+#app #one_pc .el-table .cell {
+    line-height:20px;
+
+}
+#app .el-table td, .el-table th {
+    padding: 10px 0;
+
+}
+
+#app .van-divider {
+    line-height: 5px;
+
+}
+
+.van-dialog {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    width: 320px;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 8px !important;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: opacity,-webkit-transform;
+    transition-property: transform,opacity;
+    transition-property: transform,opacity,-webkit-transform;
+}
+.el-message {
+    min-width: 300px !important;
+  }
+  
+
+  

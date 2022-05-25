@@ -1,0 +1,14 @@
+:root{
+    /* --main_color:#ff2424; */
+    --main_color:#409eff;
+    --auxiliary_color:#d9ecff;
+
+    
+    --base_black_color:#000000;
+    --base_white_color:#ffffff;
+    --first_white_color:#e0e0e0;
+    --first_font_color:#303133;
+    --second_font_color:#606266;
+    --third_font_color:#909399;
+    --fourth_font_color:#C0C4CC;
+  }
