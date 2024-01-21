@@ -50,6 +50,7 @@ loading_models('./models_merchant')
 // 测试数据库连接是否正常
 let sy = async () => {
   try {
+        await sequelize.sync({ force: true });
     await sequelize.authenticate()
     // console.log('Connection has been established successfully.')
   } catch (error) {
